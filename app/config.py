@@ -1,0 +1,4 @@
+SECRET_KEY = "xs4G5ZD9SwNME6nWRWrK_aq6Yb9H8VJpdwCzkTErFPw="
+UUID_LEN = 10
+UUID_ALPHABET = "".join(map(chr, range(48, 58)))
+TOKEN_EXPIRES = 3600

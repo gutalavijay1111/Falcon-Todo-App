@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Falcon Test",
+      "type": "python",
+      "request": "launch",
+      "stopOnEntry": false,
+      "python": "${workspaceRoot}/venv/Scripts/python.exe",
+      "program": "${workspaceRoot}/app/main.py",
+      "args": ["test"],
+      "cwd": "${workspaceRoot}",
+      "debugOptions": [
+        "WaitOnAbnormalExit",
+        "WaitOnNormalExit",
+        "RedirectOutput"
+      ]
+    }
+  ]
+}
